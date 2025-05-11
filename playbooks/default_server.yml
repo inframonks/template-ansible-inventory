@@ -1,0 +1,4 @@
+---
+- name: Enroll default server configuration
+  hosts: all
+  gather_facts: true

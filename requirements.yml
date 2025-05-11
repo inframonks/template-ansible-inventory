@@ -1,0 +1,5 @@
+---
+roles:
+  - name: lenhardt.common
+    src: https://github.com/lenhardt/ansible-role-common.git
+    version: v1.2.3       # Tag oder Branch oder Commit-Hash
