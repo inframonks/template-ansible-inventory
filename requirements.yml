@@ -1,5 +1,17 @@
 ---
+collections:
+  - name: community.general
+    version: 8.3.0
+
+  - name: ansible.posix
+    version: 1.5.4
+
+  - name: inframonks.default_server
+    source: https://github.com/inframonks/ansible-collection-default-server.git
+    type: git
+    version: 1.0.0
+
 roles:
-  - name: lenhardt.common
-    src: https://github.com/lenhardt/ansible-role-common.git
-    version: v1.2.3       # Tag oder Branch oder Commit-Hash
+  - name: proxmox_automatic
+    src: https://github.com/inframonks/ansible-role-proxmox-automatic.git
+    version: 1.0.0       # Tag oder Branch oder Commit-Hash
