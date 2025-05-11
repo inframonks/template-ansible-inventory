@@ -37,9 +37,11 @@ Diese werden lokal in ./roles/ und ./collections/ abgelegt.
 ## 🗂 Projektstruktur
 
 Hier ist eine erweiterte, saubere Projektstruktur mit einer klaren Trennung von:
-	•	inventory/hosts.yml
-	•	inventory/group_vars/<group>.yml
-	•	inventory/host_vars/<hostname>/<details>.yml
+```bash
+  • inventory/hosts.yml
+  • inventory/group_vars/<group>.yml
+  • inventory/host_vars/<hostname>/<details>.yml
+```
 
 Das Setup eignet sich hervorragend für größere Ansible-Projekte mit gepflegten Rollen, Versionierung und Mandantentrennung.
 
