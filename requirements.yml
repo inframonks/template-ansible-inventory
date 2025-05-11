@@ -12,6 +12,6 @@ collections:
     version: 1.0.0
 
 roles:
-  - name: proxmox_automatic
+  - name: inframonks.proxmox_automatic
     src: https://github.com/inframonks/ansible-role-proxmox-automatic.git
-    version: 1.0.0       # Tag oder Branch oder Commit-Hash
+    version: 1.0.0
